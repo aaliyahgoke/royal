@@ -1,3 +1,77 @@
-body{
-    background-color: red;
-}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ .div{
+    background-color: rgb(188, 55, 157);
+    padding: 10px;
+    height: 300px;
+ }
+ .header{
+     
+     display: flex;
+     gap: 2rem;
+     justify-content: right;
+     align-items: right;
+ 
+ }
+ #intro{
+    
+     background-color: aqua;
+ }
+ p{
+     align-items: center;
+     justify-content: center;
+    
+ }
+ .container{
+     padding: 100px;
+     margin: 100px;
+ }
+ li{
+     color:white;
+     list-style-type: none;
+ }
+ img{
+     justify-content: center;
+     display: flex;
+     gap: 2rem;
+ }
+ h1{
+     color: white;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+ }
+ h4{
+     color: white;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+ }
+ .contact{
+     background-color: black;
+     color: aliceblue; 
+    
+     height: 300px; 
+     align-items: center;
+     justify-content: center;
+ }
+ .about{
+     background-color: cyan;
+     padding: 10px;
+     height: 300px;
+ }
+ h2{
+     color: white;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+ }
+ .service{
+     background-color: rgb(16, 107, 75);
+     padding: 10px;
+     height: 300px;
+ }
+ 
